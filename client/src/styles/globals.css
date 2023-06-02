@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @tailwind forms; */
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 800;
+}
+
+span {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.bg-discord-blue {
+  background-color: #7289DA;
+}
+.color-primario {
+  background-color: #a8dadc;
+}
+
+.color-bg {
+  background-color: #1d3557 ;
+}
+
+.color-secundario{
+  background-color: #457b9d;
+}
+
+.color-rojo{
+  background-color: #e63946;
+}
+
+.color-blanco {
+  background-color: #f1faee;
+}
+
+.size-arrow-down{
+  font-size: 8px;
+}
+.bg-prueba{
+  background-color: rgb(77, 80, 128);
+}
+
+.active-switcher-item {
+  background-color: #7289DA;
+}
+
+.glassmorphism{
+  position: relative;
+}
+.glassmorphism::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* Ajusta el tamaño del efecto de glasomorfismo */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
