@@ -39,7 +39,7 @@ const id= Boolean(anchorEl) ? 'simple-popover' : undefined
                 horizontal: 'right',
               }}
         >
-            <SearchContent></SearchContent>
+            <SearchContent handleClose={handleClose}></SearchContent>
         </Popover>
     </>
   )

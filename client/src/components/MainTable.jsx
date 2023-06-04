@@ -2,18 +2,18 @@ import React from "react";
 import Link from "next/link";
 export default function MainTable ({children, coinsWithTickers}) { 
     return (
-        <table className="table-auto w-full mt-5 rounded-md">
-          <thead className="h-12 color-secundario">
+        <table className="table table-auto w-full mt-5 rounded-md">
+          <thead className="h-10 color-secundario">
             <tr>
-              <th className="font-extrabold text-lg">Rank</th>
-              <th className="font-extrabold text-lg">Name</th>
-              <th className="font-extrabold text-lg">Price</th>
-              <th className="font-extrabold text-lg">1h %</th>
-              <th className="font-extrabold text-lg">24h %</th>
-              <th className="font-extrabold text-lg">7d %</th>
-              <th className="font-extrabold text-lg">Market Cap</th>
-              <th className="font-extrabold text-lg">Volume 24h</th>
-              <th className="font-extrabold text-lg">Circulating Supply</th>
+              <th className="font-bold text-md">Rank</th>
+              <th className="font-bold text-md">Name</th>
+              <th className="font-bold text-md">Price</th>
+              <th className="font-bold text-md">1h %</th>
+              <th className="font-bold text-md">24h %</th>
+              <th className="font-bold text-md">7d %</th>
+              <th className="font-bold text-md">Market Cap</th>
+              <th className="font-bold text-md">Volume 24h</th>
+              <th className="font-bold text-md">Circulating Supply</th>
             </tr>
           </thead>
           <tbody>
